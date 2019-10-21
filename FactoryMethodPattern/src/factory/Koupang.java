@@ -8,10 +8,10 @@ public class Koupang extends ShoppingMall{
 		
 		System.out.println("-----------Koupang-----------");
 		
-		if (category.equals("food")) {
-		       return new TimonFoodCategory();
-	        } else if (category.equals("health")) {
-	           return new TimonHealthCategory();
+		if (category.equals("Food")) {
+		       return new KoupangFoodCategory();
+	        } else if (category.equals("Health")) {
+	           return new KoupangHealthCategory();
 	        }
 		       return null;
 	}

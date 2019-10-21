@@ -7,14 +7,14 @@ public class Main {
 		//Timon 주문 시작
 		ShoppingMall timon = new Timon();
 		
-		Shopping vitamin = timon.shopping("health");
-		Shopping chickenBreast = timon.shopping("health");
+		Shopping vitamin = timon.shopping("Health");
+		Shopping chickenBreast = timon.shopping("Food");
 		
 		
 		//Koupang 주문 시작
 		ShoppingMall koupang = new Koupang();
 		
-		Shopping roastedEgg = koupang.shopping("food");
-		Shopping protein = koupang.shopping("health");
+		Shopping protein = koupang.shopping("Health");
+		Shopping roastedEgg = koupang.shopping("Food");
 	}
 }	
